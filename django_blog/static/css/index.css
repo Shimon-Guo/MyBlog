@@ -1,0 +1,28 @@
+#sidebar {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    width: 400px;
+}
+
+.card {
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1;
+}

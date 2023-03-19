@@ -1,0 +1,23 @@
+<!-- header.html -->
+{% load static %}
+
+<header>
+    <title>{% block title %}{% endblock %}</title>
+    {% block css %}
+    <!-- 引入 CSS 样式表 -->
+    {% endblock %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.15.4/css/all.min.css">
+    <!-- jQuery -->
+    <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="https://cdn.staticfile.org/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+</header>

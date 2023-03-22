@@ -21,6 +21,8 @@ body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #eff0f6;
+
 }
 
 .wrapper {

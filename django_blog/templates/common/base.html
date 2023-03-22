@@ -1,23 +1,14 @@
-<!-- base.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 
-{% include 'common/headers.html' %}
+<head>
+    {% extends "common/headers.html" %}
+    {% block title %}测试{% endblock %}
+</head>
 <body>
 
-{% include 'common/navbar.html' %}
-
-<main>
-    {% block content %}
-    <!-- 内容块代码 -->
-    {% endblock %}
-</main>
-
-{% include 'common/footer.html' %}
-
-{% block js %}
-<!-- 引入 JavaScript 文件 -->
-{% endblock %}
 </body>
+
+{% include "common/footer.html" %}
+
 </html>
